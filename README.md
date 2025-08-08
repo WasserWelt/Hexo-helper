@@ -29,13 +29,13 @@ Hexo 命令行助手是一个专为 Hexo 博客开发者设计的效率工具，
 1. **下载工具**：
 
    ```bash
-   git clone https://github.com/your-repo/hexo-assistant.git
-   cd hexo-assistant
+   git clone https://github.com/your-repo/Hexo-helper.git
+   cd Hexo-helper
    ```
 2. **安装依赖**：
 
    ```bash
-   pip install -r requirements.txt
+   pip install colorama
    ```
 3. **运行工具**：
 
@@ -53,7 +53,7 @@ Hexo 命令行助手是一个专为 Hexo 博客开发者设计的效率工具，
 2. 执行打包：
 
    ```bash
-   pyinstaller --onefile --windowed --icon=hexo.ico hexo_assistant.py
+   pyinstaller --onefile --collect-all colorama hexo_helper.py
    ```
 3. 打包完成后，EXE 文件位于 `dist` 目录
 
