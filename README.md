@@ -29,7 +29,7 @@ Hexo 命令行助手是一个专为 Hexo 博客开发者设计的效率工具，
 1. **下载工具**：
 
    ```bash
-   git clone https://github.com/your-repo/Hexo-helper.git
+   git clone https://github.com/WasserWelt/Hexo-helper.git
    cd Hexo-helper
    ```
 2. **安装依赖**：
@@ -40,7 +40,7 @@ Hexo 命令行助手是一个专为 Hexo 博客开发者设计的效率工具，
 3. **运行工具**：
 
    ```bash
-   python hexo_assistant.py
+   python hexo_helper.py
    ```
 
 ### 打包为EXE
@@ -130,6 +130,7 @@ Hexo 命令行助手是一个专为 Hexo 博客开发者设计的效率工具，
 
 - `{{ now }}`：当前日期时间
 - `{{ title }}`：文章标题
+- more...
 
 ## 📜 许可证
 
