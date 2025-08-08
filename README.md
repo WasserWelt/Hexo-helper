@@ -29,7 +29,7 @@ Hexo 命令行助手是一个专为 Hexo 博客开发者设计的效率工具，
 1. **下载工具**：
 
    ```bash
-   git clone https://github.com/your-repo/Hexo-helper.git
+   git clone https://github.com/WasserWelt/Hexo-helper.git
    cd Hexo-helper
    ```
 2. **安装依赖**：
