@@ -1,0 +1,60 @@
+{
+  "templates": {
+    "default": {
+      "title": "",
+      "date": "{{ now }}",
+      "updated": "{{ now }}",
+      "tags": [],
+      "categories": [],
+      "comments": true,
+      "toc": true,
+      "top": false,
+      "excerpt": "",
+      "katex": false
+    },
+    "rm": {
+      "title": "",
+      "date": "{{ now }}",
+      "tags": ["RoboMaster"],
+      "categories": ["RoboMaster"],
+      "comments": true,
+      "toc": true,
+      "top": false,
+      "excerpt": "",
+      "katex": false
+    },
+    "learn":{
+      "title": "",
+      "date": "{{ now }}",
+      "tags": ["学习笔记"],
+      "categories": ["学习笔记"],
+      "comments": true,
+      "toc": true,
+      "top": false,
+      "excerpt": "",
+      "katex": true
+    },
+    "tech": {
+      "title": "",
+      "date": "{{ now }}",
+      "tags": ["杂谈"],
+      "categories": ["杂谈","技术向"],
+      "comments": true,
+      "toc": true,
+      "top": false,
+      "excerpt": "",
+      "katex": false
+    },
+    "life": {
+      "title": "",
+      "date": "{{ now }}",
+      "tags": ["杂谈"],
+      "categories": ["杂谈","生活向"],
+      "toc": true,
+      "top": false,
+      "excerpt": "",
+      "katex": false
+    }
+  },
+  "default_template": "default"
+}
